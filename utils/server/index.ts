@@ -24,7 +24,7 @@ export class OpenAIError extends Error {
 }
 
 export const OpenAIStream = async (
-  model: 'mistralai/Mistral-7B-Instruct-v0.2',
+  model: OpenAIModel,
   systemPrompt: string,
   temperature : number,
   key: string,
