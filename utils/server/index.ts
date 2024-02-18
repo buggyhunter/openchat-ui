@@ -49,7 +49,7 @@ export const OpenAIStream = async (
     },
     method: 'POST',
     body: JSON.stringify({
-      ...(OPENAI_API_TYPE === 'openai' && {model: model.id}),
+      model: 'mistralai/Mistral-7B-Instruct-v0.2',
       messages: [
         {
           role: 'system',
