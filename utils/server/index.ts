@@ -51,10 +51,6 @@ export const OpenAIStream = async (
     body: JSON.stringify({
       model: 'mistralai/Mistral-7B-Instruct-v0.2',
       messages: [
-        {
-          role: 'system',
-          content: systemPrompt,
-        },
         ...messages,
       ],
       max_tokens: 1000,
