@@ -4,7 +4,7 @@ OpenChat UI is a forked version of Chatbot UI that supports OpenChat models.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/imoneoi/openchat/master/assets/logo_new.png" style="width: 80%;">
-</div>
+</div> 
 
 ![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
 
